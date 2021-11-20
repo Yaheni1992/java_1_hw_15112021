@@ -5,7 +5,7 @@ public class HomeWorkApp {
         printThreeWords();
         checkSumSign();
         printColor();
-        compareNumbers();
+        compareNumbers(4, 5);
 
     }
 
@@ -36,15 +36,20 @@ public class HomeWorkApp {
         if (value <= 0) {
             System.out.println("Красный");
         }
-        if (value > 0 && value > 100) {
+        if (value > 100) {
             System.out.println("Желтый");
         }
-        if (value > 100);
+        if (value > 0) ;
         System.out.println("Зеленый");
     }
-    // четвертое дз
-    public static void compareNumbers() {
 
+    // четвертое дз
+    public static void compareNumbers(int a, int b) {
+        if (a >= b) {
+            System.out.println("a >= b");
+        } else {
+            System.out.println("a < b");
+        }
     }
 }
 
